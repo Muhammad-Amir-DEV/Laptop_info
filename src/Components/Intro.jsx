@@ -51,7 +51,7 @@ const Intro = () => {
             {/* cards */}
             <div className={`${activeCard === 0 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full  `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b] relative'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b] relative'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">GENERAL DETAILS :</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                   <p className='flex items-center gap-4'><FaHandPointRight /> Metal body.</p>
@@ -70,7 +70,7 @@ const Intro = () => {
 
             <div className={`${activeCard === 1 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">PROCESSOR DETAILS:</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                   <p className='flex items-center gap-4'><FaHandPointRight />Must be  i5 or greater if AMD ryzen 5 or greater.</p>
@@ -87,7 +87,7 @@ const Intro = () => {
 
             <div className={`${activeCard === 2 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">RAM DETAILS :</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                   <p className='flex items-center gap-4'><FaHandPointRight /><p>Ram is <span className=' text-red-600 font-semibold'>DDR 5</span> or higher.</p></p>
@@ -103,7 +103,7 @@ const Intro = () => {
 
             <div className={`${activeCard === 3 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">SSD DETAILS :</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                   <p className='flex items-center gap-4'><FaHandPointRight /><p><span className=' text-red-600 font-semibold'>512 GB </span>storage.</p></p>
@@ -119,7 +119,7 @@ const Intro = () => {
 
             <div className={`${activeCard === 4 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">DISPALY DETAILS :</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                   <p className='flex items-center gap-4'><FaHandPointRight /><p>Full HD resolution:<span className=' text-red-600 font-semibold'>(1920x1080)</span></p></p>
@@ -135,7 +135,7 @@ const Intro = () => {
             
             <div className={`${activeCard === 5 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">KEYBOARD DETAILS :</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                   <p className='flex items-center gap-4'><FaHandPointRight /><p><span className=' text-red-600 font-semibold'>Smooth touch.</span></p></p>
@@ -151,7 +151,7 @@ const Intro = () => {
 
             <div className={`${activeCard === 6 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">PORTS DETAILS :</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                   <p className='flex items-center gap-4'><FaHandPointRight />Have all required ports:</p>
@@ -170,7 +170,7 @@ const Intro = () => {
 
             <div className={`${activeCard === 7 ? 'block' : 'hidden'} h-full relative  flex flex-col-reverse md:flex-row md:items-center justify-center w-full `}  >
 
-              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[60%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
+              <div className=' bg-[#031d14b9] px-4 py-12 overflow-y-hidden rounded-b-xl md:rounded-b-none h-[55%] md:h-[60%] md:w-[50%] md:rounded-l-xl shadow-2xl shadow-[#12752b] border-[.1px] border-[#3b3b3b]'>
                 <h2 className="md:font-semibold text-[16px] font-medium md:text-[20px]">GPU DETAILS :</h2>
                 <p className="md:text-[17px] text-[15px] pt-4 font-light text-md font-sans flex justify-center gap-4  flex-col">
                  <p>Integrated <span className=' text-red-600 font-semibold'>GPU ( Iris Xe or UHD ) </span> is sufficient.</p>
