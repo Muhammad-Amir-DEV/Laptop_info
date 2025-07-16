@@ -10,6 +10,9 @@ body{
 body::-webkit-scrollbar{
 display: none;
 }
+.flex_c{
+  @apply flex items-center justify-start gap-4
+}
 .green-glow {
     background-color: #106d27;
     border-radius: 10px;
